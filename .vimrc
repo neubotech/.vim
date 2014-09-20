@@ -61,7 +61,7 @@ set colorcolumn=85
 
 nnoremap <leader>a :Ack
 nnoremap <leader><tab> :Sscratch
-nnoremap <leader>R :RainbowToggle
+nnoremap <leader>rb :RainbowToggle
 
 inoremap jj <ESC>
 
