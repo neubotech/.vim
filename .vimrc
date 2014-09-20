@@ -1,4 +1,4 @@
-ll pathogen#infect()
+call pathogen#infect()
 filetype plugin indent on
 
 
