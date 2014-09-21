@@ -53,15 +53,30 @@ set laststatus=2
 set relativenumber
 set undofile
 
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
 
 set wrap
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
 
+
+let mapleader = "," 
+
 nnoremap <leader>a :Ack
 nnoremap <leader><tab> :Sscratch
 nnoremap <leader>rb :RainbowToggle
+nnoremap <leader>nt :NERDTree
 
 inoremap jj <ESC>
 
